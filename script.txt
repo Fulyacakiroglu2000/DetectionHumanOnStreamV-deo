@@ -1,0 +1,22 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyC9LixRBJZ24NvjFfhFtOgjD0KPqEkwBXI",
+    authDomain: "countingpeople-f2000.firebaseapp.com",
+    databaseURL: "https://countingpeople-f2000-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "countingpeople-f2000",
+    storageBucket: "countingpeople-f2000.appspot.com",
+    messagingSenderId: "685543171251",
+    appId: "1:685543171251:web:9506a5c155d4450bf37cc6",
+    measurementId: "G-1LKY1ZH2NQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
