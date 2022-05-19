@@ -1,6 +1,14 @@
 # myFile
  
 
+ATTENTION!
+This link changes every day and I change this link in my code.You must write new link when run application.
+
+
+
+
+
+
 I used OPENCV library in this project. OpenCV (Open Source Computer Vision) is an open source image processing library. Developed by Intel in 1999.I import many library as numpy,matplotlib for graph,time.
 After that,I create a function.This function name is motionDetection().This function provide implemeting video url.Python not accepted direct YouTube link,so I right click on YouTube video and searched “m3u8”.I did copy-paste https between m3u8 part and Python worked succesfully.
 I took frame1 and frame2.In this way,when I run codes,video countınue and I can see.
