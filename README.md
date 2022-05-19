@@ -78,6 +78,7 @@ I created Firebase account and created new realtime database.I writed first sect
 
 
 
+
 REFERENCES:
 https://sogrekci.com/ders-notu/python-ve-bilimsel-hesaplama/42-grafik-cizimi/
 http://mavienginberk.blogspot.com/2017/01/opencv-python-ile-arac-sayma.html
