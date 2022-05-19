@@ -53,7 +53,7 @@ def motionDetection():
             cv2.rectangle(frame1, (x, y), (x+w, y+h), (255, 0, 0), 1)
             
 
-            cv2.putText(frame1,"number of people "+str(sayac), (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 0), 1)
+          
 
             sayac += 1
 
