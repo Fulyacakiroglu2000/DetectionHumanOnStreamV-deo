@@ -74,6 +74,17 @@ ref.set({
  
 I created Firebase account and created new realtime database.I writed first section My .json file and account give me my database url.
  
+         
+I created Firebase account and created new realtime database.I writed first section My .json file and account give me my database url.
+
+const nbOfElts = 300;
+
+App read last 300 data in live db.It adds it every time new data comes in.I used .plotly library.
+.sv is special command , because it takes server’s timestamp.
+
+ 
+It push maximum data to Firebase every 5 seconds.
+
 
 
 
