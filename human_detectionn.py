@@ -1,3 +1,7 @@
+#ATTENTION
+#URL IS CHANGED EVERY DAY IN YOUTUBE.YOU MUST USE NEW ,CURRENT LINK
+
+
 from itertools import count
 from re import A
 from turtle import pd
