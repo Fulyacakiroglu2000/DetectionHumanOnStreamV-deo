@@ -55,6 +55,29 @@ This if purpose is If I press “q” ,I’m out of the loop.Destroy all Windows
 
 
 
+
+
+import firebase_admin
+
+
+cred_obj = firebase_admin.credentials.Certificate("countingpeople-f2000-firebase-adminsdk-qizfa-44872a8ce6.json")
+default_app = firebase_admin.initialize_app(cred_obj, {
+	'databaseURL': "https://countingpeople-f2000-default-rtdb.europe-west1.firebasedatabase.app"
+	})
+from firebase_admin import db
+ref=db.reference("/")
+ref.set({
+ "Square":
+ {
+     "times":-1}
+})
+ 
+I created Firebase account and created new realtime database.I writed first section My .json file and account give me my database url.
+ 
+
+
+
+
 REFERENCES:
 https://sogrekci.com/ders-notu/python-ve-bilimsel-hesaplama/42-grafik-cizimi/
 http://mavienginberk.blogspot.com/2017/01/opencv-python-ile-arac-sayma.html
